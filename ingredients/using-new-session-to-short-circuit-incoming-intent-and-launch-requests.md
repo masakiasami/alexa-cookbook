@@ -24,4 +24,4 @@ A skill containing a `NewSession` intent will automatically route all `IntentReq
 }
 ```
 
-To route to the original intent, we emit the original intent via `this.event.request.name`
+To route to the original intent, we emit the original intent via `this.event.request.intent.name`
